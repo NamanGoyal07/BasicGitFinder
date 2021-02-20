@@ -17,10 +17,19 @@ const fetchUsers = async(user) => {
         data: data 
         // Or we can do just "data" if the value and name have same variable name
     }
-}
+};
+
+const showData = () => {
+    fetchUsers(inputValue.value).then((res) => {
+        console.log(res);
+
+        
+
+    });
+};
 
 searchButton.addEventListener('click', () =>{
-    console.log("Hello!");
+    showData();
 })
 
 
