@@ -4,7 +4,7 @@
   text-transform: uppercase;
   font-weight: 600;
   background: $mainYellow;
-  color: white;
+  color: yellow;
   border-radius: 3px;
   border: solid 2px $mainYellow;
   padding: 1rem 3rem;
@@ -14,7 +14,7 @@
   }
 
   &--shallow {
-    background: transparent;
+    background: yellow;
 
     &:hover {
       background-color: $mainYellow;
